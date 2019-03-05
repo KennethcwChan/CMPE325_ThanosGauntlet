@@ -1,0 +1,10 @@
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe.config
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\bin\Debug\FileExplorer.exe
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\bin\Debug\FileExplorer.pdb
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csprojAssemblyReference.cache
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Form1.resources
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\obj\Debug\FileExplorer.Properties.Resources.resources
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.GenerateResource.cache
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\obj\Debug\FileExplorer.csproj.CoreCompileInputs.cache
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\obj\Debug\FileExplorer.exe
+Z:\University\Year3\TERM2\CMPE325\Project\FileExplorer\FileExplorer\obj\Debug\FileExplorer.pdb
