@@ -29,6 +29,7 @@ namespace OnScreenKeyboard
 
         private void button8_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("W");
@@ -43,6 +44,7 @@ namespace OnScreenKeyboard
 
         private void button9_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("P");
@@ -57,6 +59,7 @@ namespace OnScreenKeyboard
 
         private void button2_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("I");
@@ -71,6 +74,7 @@ namespace OnScreenKeyboard
 
         private void button10_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("O");
@@ -85,6 +89,7 @@ namespace OnScreenKeyboard
 
         private void button3_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("U");
@@ -99,6 +104,7 @@ namespace OnScreenKeyboard
 
         private void button4_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("Y");
@@ -113,6 +119,7 @@ namespace OnScreenKeyboard
 
         private void button5_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("T");
@@ -127,6 +134,7 @@ namespace OnScreenKeyboard
 
         private void button15_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("F");
@@ -141,23 +149,17 @@ namespace OnScreenKeyboard
 
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
-
+            textBox1.Focus();
         }
 
         private void button55_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
-            {
-                SendKeys.Send("Q");
-            }
-            else
-            {
-                SendKeys.Send("q");
-            }
+          
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{+}");
@@ -172,6 +174,7 @@ namespace OnScreenKeyboard
 
         private void button21_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{_}");
@@ -186,6 +189,7 @@ namespace OnScreenKeyboard
 
         private void button27_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{)}");
@@ -200,6 +204,7 @@ namespace OnScreenKeyboard
 
         private void button26_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{(}");
@@ -214,6 +219,7 @@ namespace OnScreenKeyboard
 
         private void button34_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{*}");
@@ -228,6 +234,7 @@ namespace OnScreenKeyboard
 
         private void button33_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{&}");
@@ -242,6 +249,7 @@ namespace OnScreenKeyboard
 
         private void button32_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{^}");
@@ -256,6 +264,7 @@ namespace OnScreenKeyboard
 
         private void button31_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{%}");
@@ -270,6 +279,7 @@ namespace OnScreenKeyboard
 
         private void button30_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{$}");
@@ -284,11 +294,18 @@ namespace OnScreenKeyboard
 
         private void button37_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("Z");
                 checkBox3.Checked = false;
                 checkBox5.Checked = false;
+            }
+            else if (checkBox4.Checked || checkBox6.Checked)
+            {
+                SendKeys.Send("^(z)");
+                checkBox4.Checked = false;
+                checkBox6.Checked = false;
             }
             else
             {
@@ -298,6 +315,7 @@ namespace OnScreenKeyboard
 
         private void button20_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("A");
@@ -312,6 +330,7 @@ namespace OnScreenKeyboard
 
         private void button50_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("\n");
@@ -326,6 +345,7 @@ namespace OnScreenKeyboard
 
         private void button51_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{|}");
@@ -334,12 +354,13 @@ namespace OnScreenKeyboard
             }
             else
             {
-                SendKeys.Send("{\}");
+                SendKeys.Send("{|}");
             }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("Q");
@@ -354,6 +375,7 @@ namespace OnScreenKeyboard
 
         private void button7_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("E");
@@ -368,6 +390,7 @@ namespace OnScreenKeyboard
 
         private void button6_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("R");
@@ -382,6 +405,7 @@ namespace OnScreenKeyboard
 
         private void button24_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{{}");
@@ -396,6 +420,7 @@ namespace OnScreenKeyboard
 
         private void button13_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("S");
@@ -410,6 +435,7 @@ namespace OnScreenKeyboard
 
         private void button14_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("D");
@@ -424,6 +450,7 @@ namespace OnScreenKeyboard
 
         private void button16_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("G");
@@ -438,6 +465,7 @@ namespace OnScreenKeyboard
 
         private void button17_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("H");
@@ -452,6 +480,7 @@ namespace OnScreenKeyboard
 
         private void button18_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("J");
@@ -466,6 +495,7 @@ namespace OnScreenKeyboard
 
         private void button19_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("K");
@@ -480,6 +510,7 @@ namespace OnScreenKeyboard
 
         private void button11_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("L");
@@ -494,11 +525,18 @@ namespace OnScreenKeyboard
 
         private void button44_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("X");
                 checkBox3.Checked = false;
                 checkBox5.Checked = false;
+            }
+            else if (checkBox4.Checked || checkBox6.Checked)
+            {
+                SendKeys.Send("^(x)");
+                checkBox4.Checked = false;
+                checkBox6.Checked = false;
             }
             else
             {
@@ -508,11 +546,18 @@ namespace OnScreenKeyboard
 
         private void button43_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("C");
                 checkBox3.Checked = false;
                 checkBox5.Checked = false;
+            }
+            else if (checkBox4.Checked || checkBox6.Checked)
+            {
+                SendKeys.Send("^(c)");
+                checkBox4.Checked = false;
+                checkBox6.Checked = false;
             }
             else
             {
@@ -522,6 +567,7 @@ namespace OnScreenKeyboard
 
         private void button41_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("B");
@@ -536,6 +582,7 @@ namespace OnScreenKeyboard
 
         private void button40_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("N");
@@ -550,6 +597,7 @@ namespace OnScreenKeyboard
 
         private void button39_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("M");
@@ -564,11 +612,18 @@ namespace OnScreenKeyboard
 
         private void button42_Click_1(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("V");
                 checkBox3.Checked = false;
                 checkBox5.Checked = false;
+            }
+            else if (checkBox4.Checked || checkBox6.Checked)
+            {
+                SendKeys.Send("^(v)");
+                checkBox4.Checked = false;
+                checkBox6.Checked = false;
             }
             else
             {
@@ -578,6 +633,7 @@ namespace OnScreenKeyboard
 
         private void button23_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{}}");
@@ -592,6 +648,7 @@ namespace OnScreenKeyboard
 
         private void button35_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{!}");
@@ -606,6 +663,7 @@ namespace OnScreenKeyboard
 
         private void button28_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{@}");
@@ -620,6 +678,7 @@ namespace OnScreenKeyboard
 
         private void button29_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{#}");
@@ -634,6 +693,7 @@ namespace OnScreenKeyboard
 
         private void button36_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{~}");
@@ -648,6 +708,7 @@ namespace OnScreenKeyboard
 
         private void button12_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{:}");
@@ -662,6 +723,7 @@ namespace OnScreenKeyboard
 
         private void button25_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{\"}");
@@ -676,6 +738,7 @@ namespace OnScreenKeyboard
 
         private void button38_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{<}");
@@ -690,6 +753,7 @@ namespace OnScreenKeyboard
 
         private void button46_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{>}");
@@ -704,6 +768,7 @@ namespace OnScreenKeyboard
 
         private void button45_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send("{?}");
@@ -723,6 +788,7 @@ namespace OnScreenKeyboard
 
         private void button49_Click(object sender, EventArgs e)
         {
+            textBox1.Focus();
             if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
             {
                 SendKeys.Send(" ");
@@ -736,6 +802,48 @@ namespace OnScreenKeyboard
         }
 
         private void button52_Click(object sender, EventArgs e)
+        {
+            textBox1.Focus();
+            if (checkBox1.Checked || checkBox3.Checked || checkBox5.Checked)
+            {
+                SendKeys.Send("{BACKSPACE}");
+                checkBox3.Checked = false;
+                checkBox5.Checked = false;
+            }
+            else
+            {
+                SendKeys.Send("{BACKSPACE}");
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button58_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button48_Click(object sender, EventArgs e)
+        {
+            textBox1.Focus();
+            SendKeys.Send("^({ESC}E)");
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox1.Focus();
+            SendKeys.Send("\t");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
