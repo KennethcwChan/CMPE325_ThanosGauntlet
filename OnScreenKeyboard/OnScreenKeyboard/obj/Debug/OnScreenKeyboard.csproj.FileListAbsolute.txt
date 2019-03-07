@@ -1,0 +1,10 @@
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\bin\Debug\OnScreenKeyboard.exe.config
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\bin\Debug\OnScreenKeyboard.exe
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\bin\Debug\OnScreenKeyboard.pdb
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\obj\Debug\OnScreenKeyboard.csprojAssemblyReference.cache
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\obj\Debug\OnScreenKeyboard.Form1.resources
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\obj\Debug\OnScreenKeyboard.Properties.Resources.resources
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\obj\Debug\OnScreenKeyboard.csproj.GenerateResource.cache
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\obj\Debug\OnScreenKeyboard.csproj.CoreCompileInputs.cache
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\obj\Debug\OnScreenKeyboard.exe
+C:\Users\kenne\Documents\OneDrive - Queen's University\Documents\Word\Queens\Fourth Year\Winter Semester\CMPE325\Final Project\OnScreenKeyboard\OnScreenKeyboard\obj\Debug\OnScreenKeyboard.pdb
