@@ -22,5 +22,17 @@ namespace Paint
             Form1 theForm = new Form1();
             theForm.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            OnScreenKeyboard.Form1 keyboard = new OnScreenKeyboard.Form1();
+            keyboard.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FileExplorer.FileExplorer explorer = new FileExplorer.FileExplorer();
+            explorer.Show();
+        }
     }
 }

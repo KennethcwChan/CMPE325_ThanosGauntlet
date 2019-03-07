@@ -9,3 +9,5 @@ C:\Users\Luke\Source\Repos\Paint\Paint\obj\Debug\Paint.csproj.CoreCompileInputs.
 C:\Users\Luke\Source\Repos\Paint\Paint\obj\Debug\Paint.exe
 C:\Users\Luke\Source\Repos\Paint\Paint\obj\Debug\Paint.pdb
 C:\Users\Luke\Source\Repos\Paint\Paint\obj\Debug\Paint.Cl.resources
+C:\Users\Luke\Source\Repos\Paint\Paint\obj\Debug\OnScreenKeyboard.Form1.resources
+C:\Users\Luke\Source\Repos\Paint\Paint\obj\Debug\FileExplorer.FileExplorer.resources
